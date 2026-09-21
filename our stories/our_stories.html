@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>You’re Not Alone</title>
+  <link rel="stylesheet" href="our_stories.css">
+  <link rel="stylesheet" href="../main page/global.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Yuyu&display=swap"
+    rel="stylesheet"
+  >
+</head>
+
+<body>
+
+  <nav>
+    <a href="../main page/home_index.html">Home</a>
+    <a href="../mental health/mental_health.html">Mental Health</a>
+    <a href="../take a break/take_a_break.html">Take a Break</a>
+    <a href="../our stories/our_stories.html">Our Stories</a>
+  </nav>
+
+
+  <header>
+
+    <h1>You’re Not Alone</h1>
+
+    <p>
+      A space for anonymous messages, encouragement, and shared experiences.
+    </p>
+
+  </header>
+
+
+  <main>
+
+    <!-- Stories from Supabase will appear here -->
+    <div id="stories"></div>
+
+
+    <!-- Submission form -->
+    <section class="share-section">
+
+      <h2>Leave an Anonymous Message</h2>
+
+      <p>
+        Share your story with us :))
+        Or something you wish you would have heard during your college journey.
+        Your message will be posted anonymously. 
+        Please be kind.
+      </p>
+
+
+      <form id="storyForm">
+
+        <label for="story">
+          Your message:
+        </label>
+
+        <textarea
+          id="story"
+          rows="6"
+          maxlength="1000"
+          placeholder="Write something kind, encouraging, or helpful..."
+          required>
+        </textarea>
+
+
+        <button type="submit">
+          Submit Anonymously
+        </button>
+
+      </form>
+
+
+      <p id="thankYouMessage"></p>
+
+    </section>
+
+  </main>
+
+
+  <!-- Supabase must load BEFORE our_stories.js -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+  <script src="our_stories.js"></script>
+
+</body>
+
+</html>

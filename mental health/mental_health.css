@@ -1,0 +1,64 @@
+body {
+    font-family: "Yuyu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #f4f8f6;
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  padding: 30px;
+}
+
+main {
+  width: 80%;
+  max-width: 700px;
+  margin: auto;
+}
+
+section {
+  background-color: white;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
+
+#breathingCircle {
+  width: 120px;
+  height: 120px;
+  background-color: rgba(184, 216, 192, 0.7);
+  border-radius: 50%;
+  margin: 30px auto;
+  transition: transform 4s ease-in-out;
+}
+
+.breathe-in {
+  transform: scale(1.6);
+}
+
+.breathe-out {
+  transform: scale(1);
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 26px;
+  cursor: pointer;
+}
+nav {
+  background-color: #d7eadc;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}

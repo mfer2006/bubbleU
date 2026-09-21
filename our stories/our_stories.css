@@ -1,0 +1,77 @@
+body {
+  font-family: "Yuyu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #f4f8f6;
+  margin: 0;
+  text-align: center;
+}
+
+nav {
+  background-color: #d7eadc;
+  padding: 15px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+header {
+  background-color: #d7eadc;
+  padding: 40px 20px;
+}
+
+main {
+  width: 80%;
+  max-width: 700px;
+  margin: 40px auto;
+}
+
+.story,
+.share-section {
+  background-color: white;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+label {
+  text-align: left;
+}
+
+textarea {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #b7c9bd;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #b8d8c0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #9fc8aa;
+}
+
+#thankYouMessage {
+  margin-top: 15px;
+}

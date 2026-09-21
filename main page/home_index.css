@@ -1,0 +1,89 @@
+body {
+    font-family: "Yuyu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #f4f8f6;
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #d7eadc;
+  padding: 50px 20px;
+}
+
+header h1 {
+  font-size: 65px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 28px;
+}
+
+main {
+  width: 85%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.welcome {
+  padding: 40px 20px;
+}
+
+.options {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  width: 250px;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 15px;
+  background-color: #b8d8c0;
+  color: black;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.card a:hover {
+  background-color: #9fc8aa;
+}
+
+.about {
+  margin: 50px 0;
+  padding: 30px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+footer {
+  background-color: #d7eadc;
+  padding: 20px;
+  margin-top: 40px;
+}
+nav {
+  background-color: #d7eadc;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
